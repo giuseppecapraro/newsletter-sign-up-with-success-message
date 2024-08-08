@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Newsletter sign-up form with success message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: white;
+      margin-top: 0.5rem;
+    }
+
+    .attribution a {
+      color: hsl(4, 100%, 67%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="form">
+        <div class="mobile-img">
+          <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+        </div>
+        <div class="card-content">
+          
+          <div class="card-title">
+            <h1>Stay updated!</h1>
+          </div>
+          <div class="card-text">
+            <p>Join 60,000+ product managers receiving <span class="span-mobile">monthly <span class="span-desktop">
+                  updates on:</span></span></p>
+            <ul>
+              <li>Product discovery and building what matters</li>
+              <li>Measuring to ensure updates are a success</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+          <div class="card-form">
+            <div class="form-text">
+              <p>Email address</p>
+              <p class="error-message">Valid email required</p>
+            </div>
+            <input class="email" type="email" placeholder="email@company.com">
+          </div>
+          <div class="card-button">
+            <button>Subscribe to monthly newsletter</button>
+          </div>
+
+        </div>
+        <div class="card-img">
+          <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+      </div>
+      <div class="card-success">
+        <div class="card-success-img">
+          <img src="./assets/images/icon-success.svg" alt="">
+        </div>
+        <div class="card-success-title">Thanks for <br> subscribing!</div>
+        <div class="card-success-text">
+          <p>
+            A confirmation email has been sent to <br>
+            <span class="user-email">ash@loremcompany.com.</span> Please open it and click 
+            <span class="span-desktop-success" >the button inside to confirm your subscription. </span>
+          </p>
+        </div>
+        <div class="card-success-button">
+          <button>Dismiss message</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
