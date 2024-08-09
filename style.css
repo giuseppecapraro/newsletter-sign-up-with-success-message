@@ -203,15 +203,14 @@ ul{
         justify-content: center;
         align-items: center;
         padding: 0;
-        max-width: 100%;
+        width: 100%;
         height: auto;
     }
 
     .mobile-img img{
-        
         margin: 0 0 3rem 0;
         padding: 0;
-        max-width: 100%;
+        width: 100%;
         height: auto;
     }
 
@@ -259,7 +258,6 @@ ul{
         left: auto;
         color: rgb(255, 84, 84);
         font-size: smaller;
-        
     }
     
     .card-form input{
